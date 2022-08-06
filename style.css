@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    margin:4% 7%;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    color: #747070;
+    justify-content: space-between;
+}
+.logo{
+    flex: 1;
+}
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-weight: 500;
+    font-size: 1.2rem;
+    flex: 2;
+    align-items: center;
+    justify-content: flex-end;
+}
+.list-item{
+    margin-right: 5%;
+}
+.btn{
+    background: transparent;
+    padding: 5px 28px;
+    line-height: 1.2rem;
+    font-size: 1.2rem;
+    font-family: 'Poppins';
+    border: 2px solid;
+    border-radius: 20px;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(191deg, rgba(141,225,252,1) 30%, rgba(55,110,185,1) 63%);
+    color: #3f97f2;
+    font-weight: 500;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10% 0;
+}
+.left{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+h1{
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+p{
+    color: #717474;
+}
+.card p{
+    margin: 2% 0 2% 0;
+   
+}
+.right{
+    width: 40%;
+}
+.left button, .btn-2{
+    width: fit-content;
+    text-decoration: none;
+    background: rgb(4,98,234);
+    background: linear-gradient(5deg, rgba(4,98,234,1) 20%, rgba(9,193,248,1) 80%); 
+    width: fit-content;
+    padding: 15px 40px;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 700;
+    border: none;
+}
+.service-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.service-header h1{
+    width: 80%;
+    margin-right: 2%;
+}
+.service-header p{
+    margin: 0 3%;
+    width: 80%;
+}
+.service-footer{
+    margin: 4% 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 4%;
+}
+.service-card{
+    width: 30%;
+    margin-bottom: 6%;
+}
+.service-card img{
+    width: 12%;
+    margin-bottom: 4%;
+}
+.price-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.pricing{
+    background: linear-gradient(5deg, rgba(4,98,234,1) 20%, rgba(9,193,248,1) 80%);
+}
+.box{
+    padding: 4% 7%;
+}
+.price-heading{
+    text-align: center;
+    color: white;
+}
+.price-container{
+    margin-top:3%;
+}
+.price-card{
+    background-color: white;
+    width: 29%;
+    border-radius: 4%;
+}
+.price-headers, .price-footers{
+    padding:13% 8%;
+}
+.card-list{
+    padding: 8%;
+}
+.price-footers{
+    text-align: center;
+}
+.price-headers p{
+    margin: 2% 0 2% 0;
+}
+.price-headers h1, .price-footers h2{
+    font-size: 2.3rem;
+    font-weight: 600;
+}
+.card-list p{
+    margin-bottom: 7%;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.card-list i{
+    color: #6bbd95;
+    margin-right: 4%;
+}
+.price-footers span{
+    color: #798196;
+}
+.price-footers button{
+    margin-top: 9%;
+}
+.price-footers button.btn{
+    padding: 3% 6%;
+    font-size: 1rem;
+}
+.dark-header{
+    background-color: #353535;
+    color: white;
+    border-radius: 4%;
+}
+.dark-header p{
+    color: white;
+}
+.reviews{
+    background-color: #fdfeffc0;
+}
+.reviews h1{
+    text-align: center;
+}
+.review_subHeading{
+    text-align: center;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+.reviews_header_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.review-container{
+    padding: 4% 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 1%;
+}
+.review-card{
+    border: 1px solid #ececec;
+    background-color: white;
+    border-radius: 15px;
+    padding: 3%;
+    width: 40%;
+    margin-bottom: 3%;
+    color: #4a5672;
+}
+.circle{
+    background-color: #d9d9d9;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    margin-right: 1%;
+}
+.name-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 3%; 
+}
+.name{
+    color: black;
+}
+.cta_section{
+     padding:4% 7%;
+     background-image: url('./images/footer-bg.svg');
+     display: flex;
+     flex-direction: row;
+     color: white;
+     justify-content: space-between;
+     align-items: center;
+}
+.cta-left{
+   width: 46%;
+}
+.cta-left p{
+    color: white;
+}
+.register_btn{
+    background: transparent;
+    padding: 15px 28px;
+    line-height: 1.2rem;
+    font-size: 1.2rem;
+    font-family: 'Poppins';
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+}
+footer{
+    display: flex;
+}
+.about {
+    width: 25%;
+}
+.about img {
+    margin-bottom: 20px;
+}
+.links {
+    display: flex;
+    justify-content: space-evenly;
+    width: 55%;
+}
+.links ul {
+    list-style: none;
+}
+.links ul li {
+    font-weight: 300;
+    margin: 10px 0;
+}
+.links ul li:first-child {
+    font-size: 30px;
+    font-weight: 600;
+    color: #1D2B4F;
+}
+.socials {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+}
+.socials ul {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+.socials ul li img {
+    height: 48px;
+}
